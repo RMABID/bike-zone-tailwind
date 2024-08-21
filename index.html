@@ -149,7 +149,7 @@
     <main class="md:container mx-auto">
 
 
-         <section class="my-24 ">
+         <section class="my-24 p-8 lg:p-0">
               <div class="mb-8">
                 <h2 class="lg:text-5xl text-2xl p-2 font-bold text-center ">Fetured Bikes In This Year</h2>
                 <p class="text-[#E76F51] text-center">Best bike collection</p>
@@ -162,7 +162,7 @@
 
          </section>
 
-        <section class="my-24">
+        <section class="my-24 p-8 lg:p-0">
 
           <div>
             <h2 class="text-5xl font-bold text-center mb-8">latest News</h2>
@@ -208,12 +208,12 @@
             </div>
         </section>
 
-        <section class="my-24">
+        <section class="my-24 p-8 lg:p-0">
           <div>
             <h2 class="text-5xl font-bold text-center mb-8">Happy <span class="text-orange-500">Clients says</span></h2>
         </div>
 
-        <div class="grid grid-cols-3 justify-center lg:p-8 items-center gap-6">
+        <div class="grid lg:grid-cols-3 justify-center items-center gap-6">
           <div class="border p-8 rounded-xl text-center space-y-3">
             <img class="w-[149px] mx-auto rounded-full" src="./image/Imran .jpg" alt="">
             <p class="lg:w-2/3 mx-auto">Slate helps you see how 
@@ -266,29 +266,38 @@
 
         </section>
 
-        <section>
-          <div class="lg:flex justify-between">
-            <div>
+        <section class="my-24 p-8 lg:p-0">
+          <div class="lg:flex gap-5 justify-between">
+            <div class="flex justify-center w-full">
               <img src="./image/Frequently Asked Questions.png" alt="">
             </div>
-            <div>
+            <div class="space-y-3">
               <div class="collapse collapse-plus bg-base-200">
                 <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-title text-xl font-medium">What are the most important things I should
+                  know about riding a bike?</div>
+                <div class="collapse-content">
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                  new one?</div>
                 <div class="collapse-content">
                   <p>hello</p>
                 </div>
               </div>
               <div class="collapse collapse-plus bg-base-200">
                 <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
                 <div class="collapse-content">
                   <p>hello</p>
                 </div>
               </div>
               <div class="collapse collapse-plus bg-base-200">
                 <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
                 <div class="collapse-content">
                   <p>hello</p>
                 </div>
@@ -299,8 +308,31 @@
 
     </main>
 
-    <footer>
-
+    <footer class="bg-black">
+      <section class="md:container mx-auto py-10 p-4 text-white">
+        <div class="lg:flex justify-between">
+          <div class="">
+            <ul class="flex gap-3">
+              <li><a href="#">Download Now</a></li>
+              <li><a href="#">License</a></li>
+            </ul>
+            <ul class="lg:flex gap-4 mb-3 mt-2">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="text-gray-400">&copy;2020 bike. All rights reserved</p>
+          </div>
+          <div class="space-x-3 mt-2">
+            <h1 class="text-xl font-bold mb-2">Get the App</h1>
+            <a href="#"><img src="./image/android.png" alt=""></a>
+            <a href="#"><img src="./image/ios.png" alt=""></a>
+          </div>
+        </div>
+      </section>
     </footer>
 </body>
 </html>
